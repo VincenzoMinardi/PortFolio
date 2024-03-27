@@ -20,7 +20,7 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="skills">
+        <div class="skills p-3">
             <h1 class="text-center text-white">Skills</h1>
             <div class="cont-card d-flex flex-wrap">
                 <div class="card mb-3 ms-3" style="width: 18rem;">
