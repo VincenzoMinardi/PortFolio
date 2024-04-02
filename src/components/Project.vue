@@ -15,7 +15,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "The first project with Boolean Accademy",
-                            link: "https://ornate-starburst-e95f48.netlify.app/",
+                            link: "https://responsive-layout-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -25,7 +25,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Dropbox",
-                            link: "https://jocular-daffodil-bd2b4d.netlify.app",
+                            link: "https://dropbox-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -35,7 +35,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Discord",
-                            link: "https://sweet-cactus-cf327f.netlify.app",
+                            link: "https://discord-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -45,7 +45,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Wannabe",
-                            link: "https://wonderful-gecko-b4efee.netlify.app",
+                            link: "https://boolean-accademy-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -55,7 +55,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Float-cards",
-                            link: "https://visionary-kringle-27471e.netlify.app",
+                            link: "https://float-cards-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -65,7 +65,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Dashboard",
-                            link: "https://celadon-biscotti-42e8e0.netlify.app",
+                            link: "https://dashboard-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -75,7 +75,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Bootstrap",
-                            link: "https://benevolent-rabanadas-dce92b.netlify.app",
+                            link: "https://bootstrap-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -85,7 +85,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Spotify-Web",
-                            link: "https://glittering-stroopwafel-826e20.netlify.app",
+                            link: "https://spotify-web-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -95,7 +95,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "A site of Boolando",
-                            link: "https://peaceful-valkyrie-6a0dd9.netlify.app",
+                            link: "https://boolando-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -105,7 +105,7 @@ export default {
                             technologies: "HTML - CSS",
                             collaborators: "No",
                             description: "Booleaner",
-                            link: "https://gleaming-lamington-bb1095.netlify.app",
+                            link: "https://booleaner-vincenzo-minardi.netlify.app",
                         },
                     ]
                 },
