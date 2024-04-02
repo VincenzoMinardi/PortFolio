@@ -20,7 +20,7 @@ export default {
                         },
                         {
                             id: 2,
-                            image: "./img/img-project/Dropbox.png",
+                            image: "./img/Dropbox.png",
                             name: "Dropbox",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -30,7 +30,7 @@ export default {
                         },
                         {
                             id: 3,
-                            image: "./img/img-project/discord.png",
+                            image: "./img/discord.png",
                             name: "Discord",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -40,7 +40,7 @@ export default {
                         },
                         {
                             id: 4,
-                            image: "./img/img-project/wannabe.png",
+                            image: "./img/wannabe.png",
                             name: "Wannabe",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -50,7 +50,7 @@ export default {
                         },
                         {
                             id: 5,
-                            image: "../img/img-project/float-cards.png",
+                            image: "./img/float-cards.png",
                             name: "Float-Cards",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -60,7 +60,7 @@ export default {
                         },
                         {
                             id: 6,
-                            image: "../img/img-project/dashboard.png",
+                            image: "./img/dashboard.png",
                             name: "DashBoard",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -70,7 +70,7 @@ export default {
                         },
                         {
                             id: 7,
-                            image: "../img/img-project/bootstrap.png",
+                            image: "./img/bootstrap.png",
                             name: "Bootstrap",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -80,7 +80,7 @@ export default {
                         },
                         {
                             id: 8,
-                            image: "../img/img-project/spotify-web.png",
+                            image: "./img/spotify-web.png",
                             name: "Spotify-Web",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -90,7 +90,7 @@ export default {
                         },
                         {
                             id: 9,
-                            image: "../img/img-project/Boolando.png",
+                            image: "./img/Boolando.png",
                             name: "Boolando",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -100,7 +100,7 @@ export default {
                         },
                         {
                             id: 10,
-                            image: "../img/img-project/booleaner.png",
+                            image: "./img/booleaner.png",
                             name: "Booleaner",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -122,9 +122,10 @@ export default {
     <div class="project p-3">
         <h1 class="text-center text-white fw-bold animated fadeIn">I miei Progetti</h1>
         <h2 class="text-center text-white mt-2">HTML-CSS</h2>
-        <div v-for="groupProject in projects" :key="groupProject.projectTypes">
-            <div v-for="project in groupProject.arrProjects" :key="project" class="d-flex flex-wrap gap-4">
-                <div class="card mt-4" style="width: 18rem;">
+        <div v-for="groupProject in projects" :key="groupProject.projectTypes"
+            class="d-flex justify-content-center flex-wrap gap-4">
+            <div v-for="project in groupProject.arrProjects" :key="project">
+                <div class="card mt-4" style="width: 20rem;">
                     <img :src="project.image" class="card-img-top" :alt="project.name">
                     <div class="card-body">
                         <h3 class="card-title">{{ project.name }}</h3>
@@ -141,5 +142,9 @@ export default {
 <style scoped>
 .project {
     background-color: black;
+}
+
+.card-img-top {
+    height: 150px;
 }
 </style>
