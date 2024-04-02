@@ -10,7 +10,7 @@ export default {
                     arrProjects: [
                         {
                             id: 1,
-                            image: "../img/responsive-layout.png",
+                            image: "./img/responsive-layout.png",
                             name: "Layout",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -20,7 +20,7 @@ export default {
                         },
                         {
                             id: 2,
-                            image: "../img/img-project/Dropbox.png",
+                            image: "./img/img-project/Dropbox.png",
                             name: "Dropbox",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -30,7 +30,7 @@ export default {
                         },
                         {
                             id: 3,
-                            image: "../img/img-project/discord.png",
+                            image: "./img/img-project/discord.png",
                             name: "Discord",
                             technologies: "HTML - CSS",
                             collaborators: "No",
@@ -40,7 +40,7 @@ export default {
                         },
                         {
                             id: 4,
-                            image: "../img/img-project/wannabe.png",
+                            image: "./img/img-project/wannabe.png",
                             name: "Wannabe",
                             technologies: "HTML - CSS",
                             collaborators: "No",
