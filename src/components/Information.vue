@@ -1,11 +1,12 @@
 <template>
   <!-- Chi sono -->
-  <div class="p-4 big-content">
+  <div class="p-4 big-content ">
     <div class="row align-items-center justify-content-between">
       <div class="col-md-6">
         <img class="ms-md-5 mb-4 mb-md-0 img" src="/public/img/Foto-Curriculum.jpg" alt="Foto Curriculum">
       </div>
       <div class="col-md-6">
+        <div></div>
         <h1 class="ms-md-5 text-white fw-bold animated fadeInDown">Vincenzo Minardi</h1>
         <h2 class="ms-md-5 text-white fw-bold animated fadeInDown">Jr. Full Stack Web Developer</h2>
         <div class="content text-center mt-4 animated fadeInDown">
