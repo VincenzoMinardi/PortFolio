@@ -5,12 +5,11 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid">
-        <div class="p-4 big-content">
+    <div class="big-container">
+        <div class="p-4 big-content d-flex justify-content-center align-items-center">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6">
-                    <img class="ms-md-5 mb-4 mb-md-0 img img-fluid" src="/public/img/Foto-Curriculum.jpg"
-                        alt="Foto Curriculum">
+                    <img class="ms-md-5 mb-4 mb-md-0 img " src="/public/img/Foto-Curriculum.jpg" alt="Foto Curriculum">
                 </div>
                 <div class="col-md-6">
                     <h1 class="ms-3 text-white fw-bold animated fadeInDown">Vincenzo Minardi</h1>
@@ -25,20 +24,17 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="container-contacts">
-                <div class="container">
-                    <div class="btn"><a href="https://www.instagram.com/vincenzo_minardi99/">Instagam</a></div>
-                    <div class="btn"><a href="https://www.linkedin.com/in/vincenzo-minardi-820077279/">LinkedIn</a>
-                    </div>
-                    <div class="btn"><a href="https://github.com/VincenzoMinardi">GitHub</a></div>
-
+        </div>
+        <div class="container-contacts d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="btn mt-4"><a href="https://www.instagram.com/vincenzo_minardi99/">Instagam</a></div>
+                <div class="btn mt-4"><a href="https://www.linkedin.com/in/vincenzo-minardi-820077279/">LinkedIn</a>
                 </div>
+                <div class="btn mt-4"><a href="https://github.com/VincenzoMinardi">GitHub</a></div>
             </div>
         </div>
     </div>
-
 </template>
-
 
 <style scoped>
 * {
@@ -47,25 +43,22 @@ export default {
     box-sizing: border-box;
 }
 
-.container-fluid {
+.big-container {
     background-image: url('/public/img/spazi-stellari.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
-
+    min-height: 100vh;
+    position: relative;
 }
 
 .img {
-
-    border-radius: 3rem;
+    border-radius: 6rem;
     height: 500px;
+
+    box-shadow: 0px 10px 20px rgba(1, 10, 1, 2);
+
 }
 
-.container-contacts {
-    margin-top: 16.4rem
-}
-
-/* Buttons contacts */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
 
@@ -218,8 +211,8 @@ body {
 .container .btn:nth-child(3)::before,
 /* 3*/
 .container .btn:nth-child(3)::after {
-    background: black;
-    box-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black,
-        0 0 60px black;
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
+        0 0 60px #1eff45;
 }
 </style>
