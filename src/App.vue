@@ -1,37 +1,49 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router';
-import Information from './views/Information.vue';
 
 export default {
-  components: { Information },
-
-}
+  components: {
+    RouterLink,
+    RouterView
+  },
+  data() {
+    return {
+      collapsed: true
+    };
+  },
+  methods: {
+    toggleNavbar() {
+      this.collapsed = !this.collapsed;
+    }
+  }
+};
 </script>
-
 <template>
   <nav class="color navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" @click="toggleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div :class="['collapse', { 'show': !collapsed }]" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <RouterLink to="/" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
+          <router-link to="/" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
             Home
-          </RouterLink>
-          <RouterLink to="/project" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
+          </router-link>
+          <router-link to="/project" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
             Progetti
-          </RouterLink>
-          <RouterLink to="/contacts" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
+          </router-link>
+          <router-link to="/contacts" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
             Contatti
-          </RouterLink>
+          </router-link>
         </div>
       </div>
     </div>
   </nav>
   <router-view />
 </template>
+
+
+
 
 
 <style scoped>
