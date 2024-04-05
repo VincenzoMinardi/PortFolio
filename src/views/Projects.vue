@@ -186,7 +186,7 @@ export default {
 
                         {
                             id: 8,
-                            image: "./img/form-treno.png",
+                            image: "./img_project/form-treno.png",
                             name: "Form-treno",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
@@ -469,7 +469,9 @@ export default {
                             <div class="card-body">
                                 <p>{{ project.technologies }}</p>
                                 <p> collaborazione: {{ project.collaborators }}</p>
-                                <a :href="project.link" class="card-link">Sito</a>
+                                <button class="btn text-center">
+                                    <a :href="project.link" class="card-link">Sito</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -506,5 +508,39 @@ export default {
 
 .card:hover {
     transform: translateY(40px);
+}
+
+.card-link {
+    text-align: none;
+    color: white;
+    text-decoration: none;
+}
+
+/* style buttons */
+
+.btn {
+    font-size: .8rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+
+}
+
+.btn:active {
+    scale: 0.92;
+}
+
+.btn:hover {
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
 }
 </style>

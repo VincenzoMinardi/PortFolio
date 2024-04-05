@@ -61,11 +61,11 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center gap-3 mt-5 ms-5">
-                <router-link to="/project">
-                    <button a="/project" class="btn text-center p-4">Progetti</button>
+                <router-link to="/projects">
+                    <button class="btn text-center p-4">Progetti</button>
                 </router-link>
                 <router-link to="/contacts">
-                    <button a="/project" class="btn text-center p-4">Contatti</button>
+                    <button class="btn text-center p-4">Contatti</button>
                 </router-link>
                 <router-view></router-view>
             </div>
