@@ -13,7 +13,7 @@ export default {
                             name: "Layout",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://ornate-starburst-e95f48.netlify.app/",
+                            link: "https://responsive-layout-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -22,7 +22,7 @@ export default {
                             name: "Dropbox",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://jocular-daffodil-bd2b4d.netlify.app",
+                            link: "https://dropbox-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -31,7 +31,7 @@ export default {
                             name: "Discord",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://sweet-cactus-cf327f.netlify.app",
+                            link: "https://discord-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -40,7 +40,7 @@ export default {
                             name: "Wannabe",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://wonderful-gecko-b4efee.netlify.app",
+                            link: "https://boolean-accademy-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -49,16 +49,16 @@ export default {
                             name: "Float-Cards",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://visionary-kringle-27471e.netlify.app",
+                            link: "https://float-cards-vincenzo-minardi.netlify.app",
 
                         },
                         {
                             id: 6,
                             image: "./img_project/dashboard.png",
-                            name: "DashBoard",
+                            name: "Dashboard",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://celadon-biscotti-42e8e0.netlify.app",
+                            link: "https://dashboard-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -67,7 +67,7 @@ export default {
                             name: "Bootstrap",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://benevolent-rabanadas-dce92b.netlify.app",
+                            link: "https://bootstrap-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -76,7 +76,7 @@ export default {
                             name: "Spotify-Web",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://glittering-stroopwafel-826e20.netlify.app",
+                            link: "https://spotify-web-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -94,7 +94,7 @@ export default {
                             name: "Booleaner",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://gleaming-lamington-bb1095.netlify.app",
+                            link: "https://boolando-vincenzo-minardi.netlify.app",
                         },
                     ]
                 },
