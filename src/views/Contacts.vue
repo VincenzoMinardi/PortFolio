@@ -211,8 +211,8 @@ body {
 .container .btn:nth-child(3)::before,
 /* 3*/
 .container .btn:nth-child(3)::after {
-    background: #1eff45;
-    box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
-        0 0 60px #1eff45;
+    background: black;
+    box-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black,
+        0 0 60px black;
 }
 </style>
