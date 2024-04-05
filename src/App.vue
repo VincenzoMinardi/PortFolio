@@ -1,9 +1,9 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router';
-import Information from './views/Information.vue';
+import Informations from './views/Informations.vue';
 
 export default {
-  components: { Information },
+  components: { Informations },
 
 }
 </script>
@@ -19,7 +19,7 @@ export default {
           </RouterLink>
         </li>
         <li class="ms-2 text d-flex align-items-center">
-          <RouterLink to="/project" class="text">
+          <RouterLink to="/projects" class="text">
             <span class="text fs-5">Progetti</span>
             <img class="icons ms-2" src="/img/cartel.png" alt="" style="width: 35px; height: auto;">
           </RouterLink>
