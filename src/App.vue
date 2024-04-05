@@ -46,6 +46,10 @@ export default {
   color: white;
 }
 
+.text:hover {
+  color: grey;
+}
+
 .icons {
   display: inline-block;
 }
