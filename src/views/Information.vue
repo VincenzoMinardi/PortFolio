@@ -4,17 +4,16 @@
 
 <template>
     <!-- information -->
-    <div class="p-4 big-content container-fluid">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md-6">
-                <img class="ms-md-5 mb-4 mb-md-0 img img-fluid" src="/public/img/Foto-Curriculum.jpg"
-                    alt="Foto Curriculum">
+    <div class="p-4 big-content ">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 d-flex justify-content-center">
+                <img class="mb-4 img" src="/public/img/Foto-Curriculum.jpg" alt="Foto Curriculum">
             </div>
             <div class="col-md-6">
-                <h1 class="ms-3 text-white fw-bold animated fadeInDown">Vincenzo Minardi</h1>
-                <h2 class="ms-3 text-white fw-bold animated fadeInDown">Jr. Full Stack Web Developer</h2>
-                <div class="content text-center mt-4 animated fadeInDown">
-                    <h3 class="text-white text">Ciao a tutti e benvenuti nel mio portfolio! Sono entusiasta di
+                <h1 class=" ms-4 text-white fw-bold animated fadeInDown">Vincenzo Minardi</h1>
+                <h2 class=" ms-4 text-white fw-bold animated fadeInDown">Jr. Full Stack Web Developer</h2>
+                <div class="content mt-4 animated fadeInDown">
+                    <h3 class="text-white text-center">Ciao a tutti e benvenuti nel mio portfolio! Sono entusiasta di
                         darvi il
                         benvenuto in questo spazio dove potrete esplorare e scoprire il mio percorso come sviluppatore
                         web. Qui troverete una raccolta dei miei progetti più recenti e significativi, frutto della mia
@@ -22,6 +21,8 @@
                 </div>
             </div>
         </div>
+
+
 
 
         <!-- Skills -->
@@ -70,6 +71,7 @@
             </div>
         </div>
     </div>
+
 </template>
 
 
@@ -83,7 +85,7 @@
 .img {
 
     border-radius: 3rem;
-    height: 400px;
+    height: 600px;
 }
 
 .text {

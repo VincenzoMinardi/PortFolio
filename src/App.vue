@@ -1,63 +1,56 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router';
+import Information from './views/Information.vue';
 
 export default {
-  components: {
-    RouterLink,
-    RouterView
-  },
-  data() {
-    return {
-      collapsed: true
-    };
-  },
-  methods: {
-    toggleNavbar() {
-      this.collapsed = !this.collapsed;
-    }
-  }
-};
+  components: { Information },
+
+}
 </script>
+
 <template>
-  <nav class="color navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" @click="toggleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div :class="['collapse', { 'show': !collapsed }]" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <router-link to="/" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
-            Home
-          </router-link>
-          <router-link to="/project" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
-            Progetti
-          </router-link>
-          <router-link to="/contacts" class="nav-link ms-1 text-md font-medium text-gray-200 md:ms-2">
-            Contatti
-          </router-link>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <header class="d-flex justify-content-between align-items-center p-1">
+    <nav class="color d-flex align-items-center">
+      <ul class="mt-2 d-flex align-items-center justify-content-center p-2">
+        <li class="ms-2 text">
+          <RouterLink to="/" class="text">
+            <span class="text fs-5">Home</span>
+            <img class="icons ms-2" src="/img/home.png" alt="" style="width: 35px; height: auto;">
+          </RouterLink>
+        </li>
+        <li class="ms-2 text d-flex align-items-center">
+          <RouterLink to="/project" class="text">
+            <span class="text fs-5">Progetti</span>
+            <img class="icons ms-2" src="/img/cartel.png" alt="" style="width: 35px; height: auto;">
+          </RouterLink>
+        </li>
+        <li class="ms-2 text">
+          <RouterLink to="/contacts" class="text">
+            <span class="text fs-5">Contatti</span>
+            <img class="icons ms-2" src="/img/contacts.png" alt="" style="width: 35px; height: auto;">
+          </RouterLink>
+        </li>
+      </ul>
+    </nav>
+    <router-link to="/">
+      <img src="/img/computer.png" alt="" style="width: 50px; height: 50px;">
+    </router-link>
+  </header>
   <router-view />
 </template>
 
-
-
-
-
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.text {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 
+.icons {
+  display: inline-block;
+}
 
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
+  background-color: #1F2937;
 }
 </style>
