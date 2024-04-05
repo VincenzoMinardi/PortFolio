@@ -85,7 +85,7 @@ export default {
                             name: "Boolando",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://peaceful-valkyrie-6a0dd9.netlify.app",
+                            link: "https://boolando-vincenzo-minardi.netlify.app",
 
                         },
                         {
@@ -94,7 +94,7 @@ export default {
                             name: "Booleaner",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            link: "https://boolando-vincenzo-minardi.netlify.app",
+                            link: "https://booleaner-vincenzo-minardi.netlify.app",
                         },
                     ]
                 },
