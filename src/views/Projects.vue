@@ -13,7 +13,6 @@ export default {
                             name: "Layout",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "The first project with Boolean Accademy",
                             link: "https://ornate-starburst-e95f48.netlify.app/",
 
                         },
@@ -23,7 +22,6 @@ export default {
                             name: "Dropbox",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Dropbox",
                             link: "https://jocular-daffodil-bd2b4d.netlify.app",
 
                         },
@@ -33,7 +31,6 @@ export default {
                             name: "Discord",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Discord",
                             link: "https://sweet-cactus-cf327f.netlify.app",
 
                         },
@@ -43,7 +40,6 @@ export default {
                             name: "Wannabe",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Wannabe",
                             link: "https://wonderful-gecko-b4efee.netlify.app",
 
                         },
@@ -53,7 +49,6 @@ export default {
                             name: "Float-Cards",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Float-cards",
                             link: "https://visionary-kringle-27471e.netlify.app",
 
                         },
@@ -63,7 +58,6 @@ export default {
                             name: "DashBoard",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Dashboard",
                             link: "https://celadon-biscotti-42e8e0.netlify.app",
 
                         },
@@ -73,7 +67,6 @@ export default {
                             name: "Bootstrap",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Bootstrap",
                             link: "https://benevolent-rabanadas-dce92b.netlify.app",
 
                         },
@@ -83,7 +76,6 @@ export default {
                             name: "Spotify-Web",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Spotify-Web",
                             link: "https://glittering-stroopwafel-826e20.netlify.app",
 
                         },
@@ -93,7 +85,6 @@ export default {
                             name: "Boolando",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "A site of Boolando",
                             link: "https://peaceful-valkyrie-6a0dd9.netlify.app",
 
                         },
@@ -103,7 +94,6 @@ export default {
                             name: "Booleaner",
                             technologies: "HTML - CSS",
                             collaborators: "No",
-                            description: "Booleaner",
                             link: "https://gleaming-lamington-bb1095.netlify.app",
                         },
                     ]
@@ -119,7 +109,6 @@ export default {
                             name: "Carousel",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "",
                             link: "https://carousel-vincenzo-minardi.netlify.app",
 
                         },
@@ -129,7 +118,6 @@ export default {
                             name: "Campo-Minato",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "Campo-minato",
                             link: "https://campominato-vincenzo-minardi.netlify.app",
 
                         },
@@ -139,7 +127,6 @@ export default {
                             name: "FizzBuzz",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "Fizzbuzz",
                             link: "https://fizzbuzz-vincenzo-minardi.netlify.app",
 
                         },
@@ -149,7 +136,6 @@ export default {
                             name: "OurTeam",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "",
                             link: "https://our-team-vincenzo-minardi.netlify.app",
 
                         },
@@ -159,7 +145,6 @@ export default {
                             name: "SocialPost",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "",
                             link: "https://social-post-vincenzo-minardi.netlify.app",
 
                         },
@@ -169,7 +154,6 @@ export default {
                             name: "Biglietto-treno",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "Dashboard",
                             link: "https://biglietto-treno-vincenzo-minardi.netlify.app",
 
                         },
@@ -179,7 +163,6 @@ export default {
                             name: "Lista-spesa",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "Bootstrap",
                             link: "https://lista-spesa-vincenzo-minardi.netlify.app",
 
                         },
@@ -190,7 +173,6 @@ export default {
                             name: "Form-treno",
                             technologies: "HTML - CSS - JAVASCRIPT",
                             collaborators: "No",
-                            description: "A site of Boolando",
                             link: "https://form-treno-vincenzo-minardi.netlify.app",
 
                         },
@@ -208,7 +190,7 @@ export default {
                             name: "Todolist",
                             technologies: "HTML - CSS - Vue.js",
                             collaborators: "No",
-                            description: "Todolist",
+
                             link: "https://todolist-vincenzo-minardi.netlify.app",
                         },
                         {
@@ -218,7 +200,6 @@ export default {
                             name: "Boolzapp",
                             technologies: "HTML - CSS - Vue.js",
                             collaborators: "No",
-                            description: "A Whatsapp clone",
                             link: "https://boolzapp-vincenzo-minardi.netlify.app",
 
                         },
@@ -228,7 +209,6 @@ export default {
                             name: "Email List",
                             technologies: "HTML - CSS - Vue.js",
                             collaborators: "No",
-                            description: "Email List",
                             link: "https://email-list-vincenzo-minardi.netlify.app",
 
                         },
@@ -238,7 +218,6 @@ export default {
                             name: "DC-Comics - Vite",
                             technologies: "HTML - CSS - Vue.js - Vite",
                             collaborators: "No",
-                            description: "Comics con Vite",
                             link: "https://dc-comics-vincenzo-minardi.netlify.app",
                         },
                         {
@@ -247,7 +226,6 @@ export default {
                             name: "Yu-Gi-Oh con Vite",
                             technologies: "HTML - CSS - Vue.js - Vite",
                             collaborators: "No",
-                            description: "Yu-Gi-Oh con Vite",
                             link: "https://yu-gi-oh-vincenzo-minardi.netlify.app",
                         },
                         {
@@ -256,7 +234,6 @@ export default {
                             name: "Boolflix",
                             technologies: "HTML - CSS - Vue.js - Vite",
                             collaborators: "No",
-                            description: "A Netflix Clone",
                             link: "https://booflix-vincenzo-minardi.netlify.app",
                         },
 
@@ -273,8 +250,7 @@ export default {
                             name: "Edusogno",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "Fizzbuzz",
-                            link: "https://fizzbuzz-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -283,8 +259,7 @@ export default {
                             name: "php-badwords",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "",
-                            link: "https://our-team-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -293,8 +268,7 @@ export default {
                             name: "php-dischi-json",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "",
-                            link: "https://social-post-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -303,8 +277,7 @@ export default {
                             name: "php-hotel",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "Dashboard",
-                            link: "https://biglietto-treno-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -313,8 +286,7 @@ export default {
                             name: "php-oop-1",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "Bootstrap",
-                            link: "https://lista-spesa-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -323,8 +295,7 @@ export default {
                             name: "php-opp-2",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "Spotify-Web",
-                            link: "https://password-generator-vincenzo-minardi.netlify.app",
+
 
                         },
                         {
@@ -333,8 +304,7 @@ export default {
                             name: "php-strong-password-generator",
                             technologies: "PHP",
                             collaborators: "No",
-                            description: "A site of Boolando",
-                            link: "https://form-treno-vincenzo-minardi.netlify.app",
+
 
                         },
 
@@ -350,7 +320,6 @@ export default {
                             name: "DB-First",
                             technologies: "Database",
                             collaborators: "No",
-                            description: "DB-first",
                             link: "",
                         },
                         {
@@ -359,7 +328,6 @@ export default {
                             name: "DB-University",
                             technologies: "Database",
                             collaborators: "No",
-                            description: "",
                             link: "",
 
                         },
@@ -374,7 +342,6 @@ export default {
                             name: "Laravel DC Comics",
                             technologies: "Laravel",
                             collaborators: "No",
-                            description: "Laravel DC Comics",
                             link: "",
 
                         },
@@ -394,7 +361,6 @@ export default {
                             name: "DC Comics",
                             technologies: "Laravel",
                             collaborators: "No",
-                            description: "",
                             link: "",
 
                         },
@@ -409,7 +375,6 @@ export default {
                             name: "Laravel Api",
                             technologies: "Laravel",
                             collaborators: "No",
-                            description: "Laravel Api",
                             link: "",
 
                         },
@@ -419,7 +384,6 @@ export default {
                             name: "Boolfolio",
                             technologies: "HTML - CSS - VueJS",
                             collaborators: "No",
-                            description: "Boolfolio",
                             link: "",
 
                         },
@@ -429,7 +393,6 @@ export default {
                             name: "Laravel Router Backend",
                             technologies: "Laravel",
                             collaborators: "No",
-                            description: "Laravel Router Backend",
                             link: "",
 
                         },
@@ -439,7 +402,6 @@ export default {
                             name: "Vue Router Frontoffice",
                             technologies: "HTML - CSS - VueJS",
                             collaborators: "Antonio NIcolaci, Paolo Falco, Cristian Lazzari, Gianluca Giardella, Vincenzo Minardi",
-                            description: "Vue Router Frontoffice",
                             link: "",
 
                         },
