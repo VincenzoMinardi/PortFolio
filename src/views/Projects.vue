@@ -190,7 +190,6 @@ export default {
                             name: "Todolist",
                             technologies: "HTML - CSS - Vue.js",
                             collaborators: "No",
-
                             link: "https://todolist-vincenzo-minardi.netlify.app",
                         },
                         {
