@@ -62,10 +62,10 @@
             </div>
             <div class="d-flex justify-content-center gap-3 mt-5 ms-5">
                 <router-link to="/project">
-                    <button a="/project" class="btn text-center">Progetti</button>
+                    <button a="/project" class="btn text-center p-4">Progetti</button>
                 </router-link>
                 <router-link to="/contacts">
-                    <button a="/project" class="btn text-center">Contatti</button>
+                    <button a="/project" class="btn text-center p-4">Contatti</button>
                 </router-link>
                 <router-view></router-view>
             </div>
@@ -85,7 +85,8 @@
 .img {
 
     border-radius: 3rem;
-    height: 600px;
+    height: 500px;
+    box-shadow: 0px 10px 20px rgba(1, 10, 1, 2);
 }
 
 .text {
