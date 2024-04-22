@@ -4,16 +4,17 @@
 
 <template>
     <!-- information -->
-    <div class="p-4 big-content ">
+    <div class="p-4 big-content container-fluid ">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-6 d-flex justify-content-center">
                 <img class="mb-4 img" src="/public/img/Foto-Curriculum.jpg" alt="Foto Curriculum">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <h1 class=" ms-4 text-white fw-bold animated fadeInDown">Vincenzo Minardi</h1>
                 <h2 class=" ms-4 text-white fw-bold animated fadeInDown">Jr. Full Stack Web Developer</h2>
                 <div class="content mt-4 animated fadeInDown">
-                    <h3 class="text-white text-center">Ciao a tutti e benvenuti nel mio portfolio! Sono entusiasta di
+                    <h3 class="text-white text-center">Ciao a tutti e benvenuti nel mio portfolio! Sono
+                        entusiasta di
                         darvi il
                         benvenuto in questo spazio dove potrete esplorare e scoprire il mio percorso come sviluppatore
                         web. Qui troverete una raccolta dei miei progetti più recenti e significativi, frutto della mia
@@ -26,57 +27,68 @@
 
 
         <!-- Skills -->
-        <div class="skills p-3">
-            <h1 class="text-center text-white fw-bold animated fadeIn">Skills</h1>
-            <div class="cont-card d-flex justify-content-center flex-wrap animated fadeInDown p-4">
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/html.jpg" class="card-img-top" alt="">
+        <h1 class="text-center text-white fw-bold animated fadeIn mb-4 mt-4">Skills</h1>
+        <div class="d-flex justify-content-center align-items-center ">
+            <div class="d-flex justify-content-center flex-wrap gap-4 animated fadeIn">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/HTML.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/css.jpg" class=" card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/CSS.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/bootstrap.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/Bootstrap.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/javascript.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/JavaScript.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/vue.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/VueJS-Dark.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/php.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/PHP-Dark.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/laravel.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/Laravel-Dark.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/mysql.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/MySQL-Light.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/postman.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/Postman.svg" class="img-fluid img-skills " alt="">
                 </div>
-                <div class="card mb-3 ms-3" style="width: 18rem;">
-                    <img src="/public/img_skills/sass.jpg" class="card-img-top" alt="">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <img src="/public/img_skills/Sass.svg" class="img-fluid img-skills " alt="">
                 </div>
-            </div>
-            <div class="d-flex justify-content-center gap-3 mt-5 ms-5">
-                <router-link to="/projects">
-                    <button class="btn text-center p-4">Progetti</button>
-                </router-link>
-                <router-link to="/contacts">
-                    <button class="btn text-center p-4">Contatti</button>
-                </router-link>
-                <router-view></router-view>
             </div>
         </div>
+
+
+        <div class="d-flex justify-content-center gap-3 mt-5">
+            <router-link to="/projects">
+                <button class="btn text-center p-4">Progetti</button>
+            </router-link>
+            <router-link to="/contacts">
+                <button class="btn text-center p-4">Contatti</button>
+            </router-link>
+            <router-view></router-view>
+        </div>
     </div>
+
 
 </template>
 
 
 
 <style scoped>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 .big-content {
     background-image: url(/public/img/foto.jpg);
     background-size: cover;
@@ -85,7 +97,7 @@
 .img {
 
     border-radius: 3rem;
-    height: 500px;
+    height: 350px;
     box-shadow: 0px 10px 20px rgba(1, 10, 1, 2);
 }
 
@@ -123,8 +135,7 @@
 
 /* skills */
 
-.card-img-top {
-    height: 200px;
-    object-fit: contain;
+.img-skills {
+    height: 230px;
 }
 </style>

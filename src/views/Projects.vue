@@ -319,7 +319,7 @@ export default {
                             name: "DB-First",
                             technologies: "Database",
                             collaborators: "No",
-                            link: "",
+
                         },
                         {
                             id: 2,
@@ -327,7 +327,7 @@ export default {
                             name: "DB-University",
                             technologies: "Database",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                     ]
@@ -341,7 +341,7 @@ export default {
                             name: "Laravel DC Comics",
                             technologies: "Laravel",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                         {
@@ -351,7 +351,7 @@ export default {
                             technologies: "Laravel",
                             collaborators: "No",
                             description: "",
-                            link: "",
+
 
                         },
                         {
@@ -360,7 +360,7 @@ export default {
                             name: "DC Comics",
                             technologies: "Laravel",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                     ]
@@ -374,7 +374,7 @@ export default {
                             name: "Laravel Api",
                             technologies: "Laravel",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                         {
@@ -383,7 +383,7 @@ export default {
                             name: "Boolfolio",
                             technologies: "HTML - CSS - VueJS",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                         {
@@ -392,7 +392,7 @@ export default {
                             name: "Laravel Router Backend",
                             technologies: "Laravel",
                             collaborators: "No",
-                            link: "",
+
 
                         },
                         {
@@ -401,7 +401,7 @@ export default {
                             name: "Vue Router Frontoffice",
                             technologies: "HTML - CSS - VueJS",
                             collaborators: "Antonio NIcolaci, Paolo Falco, Cristian Lazzari, Gianluca Giardella, Vincenzo Minardi",
-                            link: "",
+
 
                         },
                     ],
@@ -430,9 +430,10 @@ export default {
                             <div class="card-body">
                                 <p>{{ project.technologies }}</p>
                                 <p> collaborazione: {{ project.collaborators }}</p>
-                                <button class="btn text-center">
-                                    <a :href="project.link" class="card-link">Sito</a>
-                                </button>
+                                <a class="btn text-center" :href="project.link" target="_blank">Sito</a>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -503,5 +504,10 @@ export default {
     background: rgb(2, 29, 78);
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
     color: rgb(4, 4, 38);
+}
+
+
+.link {
+    width: 10px;
 }
 </style>

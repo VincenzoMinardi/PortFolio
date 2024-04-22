@@ -37,9 +37,17 @@ export default {
     </router-link>
   </header>
   <router-view />
+
 </template>
 
+
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .text {
   list-style: none;
   text-decoration: none;
